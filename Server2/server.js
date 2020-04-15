@@ -11,7 +11,7 @@ server.get('/home/:page',function(req,res,next){
     }
     res.send(database);
 })
-console.log(1+1)
+console.log(1)
 
 server.use('/type',router);
 server.listen(8080,()=>{
